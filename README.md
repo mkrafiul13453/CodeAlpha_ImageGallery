@@ -46,6 +46,13 @@ python -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
+## Deploy to Vercel
+
+Import the project into Vercel with the repository root as the **Root Directory**.
+The included `vercel.json` configures this as a plain static site and publishes
+the project root, where `index.html`, `css/`, `js/`, and `public/` are located.
+After pushing changes, trigger a new deployment in Vercel.
+
 ## Images and categories
 
 The current collection contains 39 images:
